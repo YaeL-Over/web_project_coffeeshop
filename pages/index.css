@@ -8,3 +8,97 @@
   justify-content: center;
   margin: 0 auto;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-color: #fff;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  border: 3px dashed blue;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  justify-content: flex-end;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  /*font-weight: bold;
+  gap: 20px;*/
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin-top: 183px;
+  margin-left: 80px;
+  max-width: 709px;
+}
+
+.header__description {
+  margin-top: 28px;
+  margin-left: 80px;
+  max-width: 709px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+
+  max-width: 646px;
+  max-height: 568px;
+  border: 3px dashed green;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+.header__footer {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px dashed red;
+}
+.header__schedule {
+  margin-left: 80px;
+  padding-bottom: 0;
+}
+.header__schedule-heading {
+}
+.header__schedule_list {
+  list-style-type: none;
+  padding: 0;
+}
+.header__address {
+}
