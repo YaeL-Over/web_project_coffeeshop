@@ -150,20 +150,10 @@ p {
   /* border: 3px dashed blueviolet;*/
   column-gap: 50px;
 }
-.header__schedule-heading {
+.header__paragraph {
   /*border: 3px dashed rgb(192, 176, 28);*/
   padding: 0;
-  margin: 0;
-}
-.header__schedule-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  /*border: 3px dashed rgb(53, 134, 94);*/
-}
-.header__address {
   margin: 0 80px 0 0;
-  padding: 0;
 }
 
 .content {
