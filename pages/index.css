@@ -155,7 +155,7 @@ p {
   padding: 0;
   margin: 0;
 }
-.header__schedule_list {
+.header__schedule-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -225,6 +225,7 @@ p {
 .recipes__video-iframe {
   padding: 0;
   margin: 0;
+  border: none;
 }
 .recipes__video-caption {
   padding: 0;
