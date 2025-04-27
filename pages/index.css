@@ -247,8 +247,8 @@ p {
 
 .reservation__title {
   /*border: 3px dashed rgb(133, 161, 6);*/
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
+  padding-top: 100px;
 
   font-family: Inter;
   font-style: normal;
@@ -334,7 +334,7 @@ input[type="date"] {
   color: #fff;
   background-color: #2f80ed;
 }
-.form__label-check {
+.form__label_direction_right {
   display: flex;
   padding: 0;
   margin: 0;
