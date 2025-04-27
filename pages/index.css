@@ -9,7 +9,6 @@ p {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
   min-width: 1100px;
   max-width: 1600px;
   /*width: 1440px;*/
@@ -231,4 +230,121 @@ p {
   line-height: 30px;
 
   /* border: 3px dashed rgb(53, 134, 94);*/
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /*border: 3px dashed rgb(53, 134, 94);*/
+}
+
+.reservation__title {
+  /*border: 3px dashed rgb(133, 161, 6);*/
+  margin: 100px 0 80px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  max-width: 385px;
+  margin-bottom: 120px;
+  box-sizing: border-box;
+  padding: 0;
+  /*border: 3px dashed rgb(56, 11, 180);*/
+}
+
+.form__input-container {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /*border: 3px dashed rgb(180, 11, 11);*/
+  width: 100%;
+  border: none;
+}
+
+.form__label {
+  /*border: 3px dashed rgb(8, 12, 238);*/
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 0 8px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__item {
+  height: 60px;
+  margin-bottom: 32px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__item::placeholder {
+  box-sizing: border-box;
+
+  padding: 20px 0 0 15px;
+  /* border: 1px dashed rgb(8, 12, 238);*/
+}
+
+input[type="date"] {
+  margin-bottom: 32px;
+  padding-left: 20px;
+}
+
+.form__button {
+  height: 60px;
+  margin-bottom: 32px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  border: none;
+  border-radius: 4px;
+}
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__button[type="submit"] {
+  color: #fff;
+  background-color: #2f80ed;
+}
+.form__label-check {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  margin: 0 12px 0 0;
+
+  align-self: flex-end;
 }
