@@ -247,7 +247,9 @@ p {
 
 .reservation__title {
   /*border: 3px dashed rgb(133, 161, 6);*/
-  margin: 100px 0 80px 0;
+  margin-top: 100px;
+  margin-bottom: 80px;
+
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -266,7 +268,7 @@ p {
   /*border: 3px dashed rgb(56, 11, 180);*/
 }
 
-.form__input-container {
+.form__fieldset {
   box-sizing: border-box;
   padding: 0;
   display: flex;
@@ -289,7 +291,7 @@ p {
   line-height: 20px;
 }
 
-.form__item {
+.form__input {
   height: 60px;
   margin-bottom: 32px;
 
@@ -299,7 +301,7 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
-.form__item::placeholder {
+.form__input::placeholder {
   box-sizing: border-box;
 
   padding: 20px 0 0 15px;

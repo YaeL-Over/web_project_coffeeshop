@@ -143,11 +143,11 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="reservation__form">
-            <fieldset class="form__input-container">
+            <fieldset class="form__fieldset">
               <label for="name" class="form__label">Nombre*</label>
               <input
                 type="text"
-                class="form__item form__item_el_name"
+                class="form__input form__item_el_name"
                 id="name"
                 name="name"
                 placeholder="Nombre"
@@ -159,7 +159,7 @@
               >
               <input
                 type="number"
-                class="form__item form__item_el_number"
+                class="form__input form__item_el_number"
                 min="1"
                 max="8"
                 id="number"
@@ -171,7 +171,7 @@
               <label for="pub-date" class="form__label">Fecha y hora*</label>
               <input
                 type="date"
-                class="form__item form__item_el_pubdate"
+                class="form__input form__item_el_pubdate"
                 id="pub-date"
                 name="pub-date"
                 required
@@ -182,7 +182,7 @@
               >
               <input
                 type="email"
-                class="form__item form__item_el_email"
+                class="form__input form__item_el_email"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
@@ -203,7 +203,7 @@
                     type="checkbox"
                     name="terminos"
                     id="terminos"
-                    class="form__item form__item_el_terminos"
+                    class="form__input"
                     value=""
                     required
                   />
