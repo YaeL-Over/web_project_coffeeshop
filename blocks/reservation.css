@@ -13,8 +13,9 @@
 
 .reservation__title {
   /*border: 3px dashed rgb(133, 161, 6);*/
-  margin: 0 auto 80px;
-  padding-top: 100px;
+  margin: 100px auto 80px;
+  padding: 0;
+  /*padding-top: 100px;*/
 
   font-family: Inter;
   font-style: normal;
