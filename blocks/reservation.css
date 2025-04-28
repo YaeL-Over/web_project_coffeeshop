@@ -7,14 +7,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 80px 120px;
 
   /*border: 3px dashed rgb(53, 134, 94);*/
 }
 
 .reservation__title {
   /*border: 3px dashed rgb(133, 161, 6);*/
-  margin: 100px auto 80px;
   padding: 0;
+  /*margin: 0 auto 80px;*/
+  margin: 0 auto 80px;
   /*padding-top: 100px;*/
 
   font-family: Inter;
@@ -29,7 +31,7 @@
   flex-direction: column;
   /*justify-content: center;*/
   max-width: 385px;
-  margin-bottom: 120px;
+  margin-bottom: 0;
   box-sizing: border-box;
   padding: 0;
   /*border: 3px dashed rgb(56, 11, 180);*/
